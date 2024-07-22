@@ -8,6 +8,7 @@ margin: 20px auto;
 justify-content: space-around;
 margin-bottom: 30px;
 
+
 @media (max-width: 750px) {
   margin-left: auto;
   width: 99%
@@ -18,11 +19,12 @@ export const Resume = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(to right, #192734 40%, #043959, #22303c  );
-  color: #F2F2F2;
+  background-color: #fff;
+  color: black;
   border-radius: 20px;
   padding: 10px;
   width: 22%;
+  box-shadow: 0px 0px 3px #CCC;
 
   span {
     font-size: 15pt;
@@ -59,7 +61,6 @@ svg{
 
 export const HeaderTitle = styled.p`
  font-size: 16px;
- color: #8c8f94;
 `;
 
 export const Total = styled.span`

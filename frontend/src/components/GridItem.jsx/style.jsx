@@ -8,6 +8,7 @@ export const Td = styled.td`
   padding-top: 15px;
   text-align: ${(props) => (props.alignCenter ? "center" : "start")};
   word-break: break-all;
+  border-bottom: inset;
   
   @media(max-width: 750px) {
     font-size: 13px;

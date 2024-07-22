@@ -5,10 +5,9 @@ export const Table = styled.table`
   width: 99%;
   margin: 20px auto;
   padding: 20px;
-  background-color: #192734;
+  background-color: #fff;;
   border-radius: 6px;
-  color: #a7aaad;
-  
+  box-shadow: 0px 0px 3px #CCC;
   display: block;
   overflow: auto;
   height: 320px;

@@ -1,6 +1,6 @@
 # Controle Financeiro Pessoal
 
-![controle](./frontend/public/assets/img.png)
+![controle](./frontend/public/assets/img1.png)
 
 
 ## Descrição do projeto
@@ -11,6 +11,7 @@ o restante total. Um CRUD Fullstack com React.js Node e MySQL.
 
 - Este é um projeto de estudos no qual a necessidade de evolução me fizeram querer sair da zona de conforto e aprender como desenvolver uma aplicação mais completa, que além da parte visual e de interação também trouxesse a parte de tratamento e armazenamento de dados
 do lado do servidor.
+O layout foi inspirado no projeto do Will Dev disponibilizado no Youtube.
 
 ## Ferramentas usadas
 #### Front-end

@@ -8,9 +8,10 @@ export const Container = styled.div`
   margin: 20px auto;
   padding: 15px 0px;
   justify-content: space-around;
-  background-color: #192734;
-  color: #a7aaad;
+  background-color: #fff;
+  
   border-radius: 6px;
+  box-shadow: 0px 0px 3px #CCC;
   gap: 10px;
 
   @media (max-width: 950px) {
@@ -18,6 +19,9 @@ export const Container = styled.div`
     margin-left: auto;
     width: 85%;
   }
+`;
+
+export const Title = styled.h3`
 `;
 
 export const InputContent = styled.div`
@@ -46,9 +50,10 @@ export const Input = styled.input`
   font-size: 15px;
   outline: none;
   border-radius: 6px;
-  background: #16202B;
+  background: #fff;
   color: #8c8f94;
-  border: 1px solid #3c434a;
+  border: 1px solid #CCC;
+  
   
   @media (max-width: 950px) {
     margin-left: 20px;
@@ -68,7 +73,7 @@ export const RadioGroup = styled.div`
     cursor: pointer;
     
     @media (max-width: 950px) {
-      margin-right: -10px;
+      margin-right: 6px;
       margin-top: 0px;
       margin-bottom: 0px;
     }
@@ -94,33 +99,18 @@ export const RadioGroup = styled.div`
   }
 
   input[type='radio']{
-   opacity: 0;
+   accent-color: black;
   }
-
-  input[type='radio'] + label:before{
-    content: '';
-    display: inline-flex;;
-    width: 8px;
-    height: 8px;
-    border: 1px solid #8c8f94;
-    border-radius: 50%;
-    margin-right: 8px;
-  }
-
-  input[type="radio"]:checked + label:before{
-    background-color: #8c8f94;
-    border: 1px solid #8c8f94;
-    
-  }
-`;
+  `;
 
 export const Button = styled.button`
   width: 100px;
   padding: 5px 10px;
   border-radius: 8px;
   cursor: pointer;
-  color: #a7aaad;
-  background: linear-gradient( to bottom, #01263a, #00131c);
+  color: white;
+  background: teal;
+  border: none;
   
   @media (max-width: 950px) {
     margin-top:-30px;
